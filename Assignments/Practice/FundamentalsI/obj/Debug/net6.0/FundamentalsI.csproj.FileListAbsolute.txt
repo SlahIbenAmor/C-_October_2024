@@ -1,0 +1,15 @@
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.AssemblyReference.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfoInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.AssemblyInfo.cs
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.csproj.CoreCompileInputs.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\bin\Debug\net6.0\FundamentalsI.exe
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\bin\Debug\net6.0\FundamentalsI.deps.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\bin\Debug\net6.0\FundamentalsI.runtimeconfig.json
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\bin\Debug\net6.0\FundamentalsI.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\bin\Debug\net6.0\FundamentalsI.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\refint\FundamentalsI.dll
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.pdb
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\FundamentalsI.genruntimeconfig.cache
+C:\Users\NEWTEK\Desktop\programs coding dojo\Codingdojo\C# .net\Language Fundamentals\Practice\FundamentalsI\obj\Debug\net6.0\ref\FundamentalsI.dll
