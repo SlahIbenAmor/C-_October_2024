@@ -1,0 +1,15 @@
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\bin\Debug\net6.0\FuelUp.exe
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\bin\Debug\net6.0\FuelUp.deps.json
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\bin\Debug\net6.0\FuelUp.runtimeconfig.json
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\bin\Debug\net6.0\FuelUp.dll
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\bin\Debug\net6.0\FuelUp.pdb
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.AssemblyInfo.cs
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.dll
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\refint\FuelUp.dll
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.pdb
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\FuelUp.genruntimeconfig.cache
+C:\Users\DELL\Desktop\C#_Satck\Assignments\Practice\FuelUp\obj\Debug\net6.0\ref\FuelUp.dll
