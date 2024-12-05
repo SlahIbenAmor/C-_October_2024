@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "lxV1t/uuPKdWqaxkzDoBBJ/6KSPVThslhyOyG5kAdzM=",
+  "Source": "Countdown",
+  "BasePath": "_content/Countdown",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Countdown\\wwwroot",
+      "Source": "Countdown",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\C#_Satck\\Assignments\\Practice\\Countdown\\wwwroot\\",
+      "BasePath": "_content/Countdown",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\DELL\\Desktop\\C#_Satck\\Assignments\\Practice\\Countdown\\wwwroot\\CSS\\style.css",
+      "SourceId": "Countdown",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\DELL\\Desktop\\C#_Satck\\Assignments\\Practice\\Countdown\\wwwroot\\",
+      "BasePath": "_content/Countdown",
+      "RelativePath": "CSS/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\style.css"
+    }
+  ]
+}
