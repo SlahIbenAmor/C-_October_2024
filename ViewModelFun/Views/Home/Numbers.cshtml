@@ -1,0 +1,15 @@
+@model List<int>
+<div class="d-flex justify-content-center">
+    <a href="/">Message</a>
+    <span> | </span>
+    <a href="/numbers">Numbers</a>
+    <span> | </span>
+    <a href="/user">User</a>
+    <span> | </span>
+    <a href="/users">Users</a>
+</div>
+<h1>Here are some numbers</h1>
+@foreach(int i in Model)
+{
+    <p>@i</p>
+}
