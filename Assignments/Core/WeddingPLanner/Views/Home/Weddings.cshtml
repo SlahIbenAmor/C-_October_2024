@@ -1,0 +1,48 @@
+@{
+    ViewData["Page"] = "Home";
+}
+
+@model List<Wedding>;
+
+<div class="container">
+    @await Html.PartialAsync("_InnerLayout")
+
+
+    <table class="table table-striped">
+        <thead>
+            <th>Wedding Of</th>
+            <th>Date</th>
+            <th>Guest Count</th>
+            <th>Action</th>
+        </thead>
+        <tbody>
+            @foreach(Wedding wedding in Model)
+            {
+                <tr>
+                    <td><a href="/weddings/@wedding.WeddingId">@wedding.WedderOneFirstName & @wedding.WedderTwoFirstName</a></td>
+                    <td>@wedding.Date</td>
+                    <td>@wedding.Attendees.Count</td>
+                    <td>
+                        @if (wedding.UserID == ViewBag.LoggedUser.UserId)
+                        {
+                            <form 
+                                asp-action="DeleteWedding" 
+                                asp-controller="Wedding" 
+                                asp-route-WeddingId="@wedding.WeddingId" 
+                                method="post">
+                                <input type="submit" value="Delete" class="btn btn-danger"/>
+                            </form>
+                        }else if(wedding.Attendees.Any(a => a.UserId == ViewBag.LoggedUser.UserId))
+                        {
+                            <a href="/weddings/@wedding.WeddingId/UN-RSVP" class="btn btn-secondary">Un-RSVP</a>
+                        }
+                        else
+                        {
+                            <a href="/weddings/@wedding.WeddingId/RSVP" class="btn btn-secondary">RSVP</a>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

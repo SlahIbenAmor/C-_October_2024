@@ -1,0 +1,19 @@
+@{
+    ViewData["Page"] = "Wedding";
+}
+
+@model Wedding;
+
+<div class="container">
+    @await Html.PartialAsync("_InnerLayout")
+
+    <h1>@Model.WedderOneFirstName & @Model.WedderTwoFirstName's wedding</h1>
+    <p>Date: @Model.Date</p>
+    <p>Guests</p>
+    <ul>
+       @foreach(RSVP attendee in Model.Attendees)
+        {
+            <li>@attendee.User.FirstName @attendee.User.LastName</li>
+        }
+    </ul>
+</div>

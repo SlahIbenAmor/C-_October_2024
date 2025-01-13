@@ -1,0 +1,41 @@
+@{
+    ViewData["Page"] = "AddWedding";
+}
+
+@model Wedding
+
+<div class="container">
+    @await Html.PartialAsync("_InnerLayout")
+
+
+    <form asp-action="CreateWedding" asp-controller="home" method="post">
+
+        <div class="mb-3">
+            <label asp-for="WedderOneFirstName" class="form-label"></label>
+            <input asp-for="WedderOneFirstName" class="form-control">
+            <span asp-validation-for="WedderOneFirstName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="WedderTwoFirstName" class="form-label"></label>
+            <input asp-for="WedderTwoFirstName" class="form-control">
+            <span asp-validation-for="WedderTwoFirstName" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Date" class="form-label"></label>
+            <input asp-for="Date" class="form-control">
+            <span asp-validation-for="Date" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Address" class="form-label"></label>
+            <input asp-for="Address" class="form-control">
+            <span asp-validation-for="Address" class="text-danger"></span>
+        </div>
+
+        <div>
+            <input type="submit" value="Create" class="btn btn-primary">
+        </div>
+    </form>
+</div>

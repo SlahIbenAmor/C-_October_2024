@@ -1,0 +1,20 @@
+<div class="d-flex w-100 justify-content-between">
+    <h1>Welcome @ViewBag.LoggedUser.FirstName</h1>
+
+    <div class="d-flex justify-content-between w-25 align-items-center">
+        @if (ViewData["Page"] == "Home"){
+            <span>Home</span>
+        }else{
+            <a href="/weddings" class="btn btn-link">Home</a>
+        }
+
+        @if (ViewData["Page"] == "AddWedding"){
+            <span>Plan a Wedding</span>
+        }else{
+            <a href="/weddings/new" class="btn btn-link">Plan a Wedding</a>
+        }
+        <a href="/logout" class="btn btn-danger">Logout</a>
+    </div>
+</div>
+
+<hr>
