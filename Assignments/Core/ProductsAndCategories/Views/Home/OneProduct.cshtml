@@ -1,0 +1,31 @@
+@model Association;
+
+
+<div class="d-flex justify-content-start">
+    <h4 class="text-center"><a style="text-decoration: none" href="/products">Products</a></h4>
+    <h4 class="text-center mx-2">|</h4>
+    <h4 class="text-center"><a style="text-decoration: none" href="/categories">Categories</a></h4>
+</div>
+<h1 class="text-center display-4 mb-5">@ViewBag.Product.Name</h1>
+<div class="row">
+    <div class="col-6 ">
+        <h3 class="display-6 mb-5"><strong>Categories</strong></h3>
+        @foreach (Category c in @ViewBag.ProductCategories)
+        {
+            <h3>@c.Name</h3>
+        }
+    </div>
+    <div class="col-6 ">
+        <form asp-action="AddAssociation" asp-controller="Home" method="post">
+            <input type="hidden" asp-for="ProductId" value="@ViewBag.Product.ProductId">
+            <label class="display-6 mb-2" for="CategoryId">Add Category</label><br>
+            <select asp-for="CategoryId" class="form-control">
+                @foreach (Category c in ViewBag.AllCategories)
+                {
+                    <option value="@c.CategoryId">@c.Name</option>
+                }
+            </select>
+            <input class="btn btn-primary mt-3" type="submit" value="Add">
+        </form>
+    </div>
+</div>
